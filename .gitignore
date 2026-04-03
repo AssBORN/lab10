@@ -1,0 +1,52 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Go
+bin/
+*.test
+*.out
+coverage.out
+vendor/
+
+# Pytest
+pytestdebug.log
+
+# Logs
+*.log
+logs/
