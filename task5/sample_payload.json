@@ -1,0 +1,63 @@
+{
+  "request_id": "REQ-1001",
+  "user_id": 42,
+  "name": "Ivan Petrov",
+  "address": {
+    "city": "Moscow",
+    "street": "Tverskaya 1",
+    "geo": {
+      "lat": 55.7558,
+      "lon": 37.6176
+    }
+  },
+  "contacts": [
+    {
+      "type": "email",
+      "value": "ivan@example.com"
+    },
+    {
+      "type": "phone",
+      "value": "+79990001122"
+    }
+  ],
+  "items": [
+    {
+      "sku": "BK-001",
+      "name": "Book",
+      "qty": 2,
+      "price": 500.0,
+      "tags": ["education", "paper"],
+      "metadata": {
+        "warehouse": "A1",
+        "fragile": false
+      }
+    },
+    {
+      "sku": "PN-010",
+      "name": "Pen",
+      "qty": 5,
+      "price": 80.5,
+      "tags": ["stationery"],
+      "metadata": {
+        "color": "blue"
+      }
+    }
+  ],
+  "payment": {
+    "method": "card",
+    "currency": "RUB",
+    "paid": true,
+    "extra": {
+      "transaction_id": "tx-999",
+      "bank": "test-bank"
+    }
+  },
+  "flags": {
+    "express": true,
+    "gift": false
+  },
+  "metadata": {
+    "source": "lab10",
+    "semester": "6"
+  }
+}
